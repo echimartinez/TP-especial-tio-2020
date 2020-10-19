@@ -74,17 +74,17 @@ INSERT INTO `producto` (`id`, `descripcion`, `color`, `precio`, `categoria`) VAL
 --
 
 CREATE TABLE `usuario` (
-  `id_usuario` int(11) NOT NULL,
-  `mail` varchar(50) NOT NULL,
-  `password` varchar(100) NOT NULL
+  `id` int(11) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `pass` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Volcado de datos para la tabla `usuario`
 --
 
-INSERT INTO `usuario` (`id_usuario`, `mail`, `password`) VALUES
-(1, 'xabunguru@gmail.com', '$2y$12$U/8P1Mpf0IJhnkPDlTYGTu6cb.NC4IK3qa1Zro1qPNNF57lkmit3u');
+INSERT INTO `usuario` (`id`, `email`, `pass`) VALUES
+(1, 'guidsalv@gmail.com', '$2y$12$U/8P1Mpf0IJhnkPDlTYGTu6cb.NC4IK3qa1Zro1qPNNF57lkmit3u');
 
 
 --
